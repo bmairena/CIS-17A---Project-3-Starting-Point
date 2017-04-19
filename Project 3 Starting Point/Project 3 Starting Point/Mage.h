@@ -1,6 +1,7 @@
 #pragma once
 #include <string>
-class Mage
+#include "Adventurer.h"
+class Mage : public Adventurer
 {
 private:
 	std::string _name;
