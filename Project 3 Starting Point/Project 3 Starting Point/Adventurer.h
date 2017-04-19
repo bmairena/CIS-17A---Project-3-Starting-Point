@@ -11,6 +11,6 @@ public:
 	~Adventurer();
 	
 	std::string GetName() const { return _name; }
-	std::string virtual Attack() {	return _name + "attacks with bare hands "; }
+	std::string virtual Attack() {	return GetName() + "attacks with bare hands "; }
 };
 

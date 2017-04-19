@@ -22,6 +22,7 @@ public:
 	std::string GetName() const { return _name; }
 	void addAdventurer(std::shared_ptr<Adventurer> adventurer);
 	std::string GetInfo();
+	std::string AttackWithPaladins();
 	std::string AttackWithAllAdventurers();
 };
 
