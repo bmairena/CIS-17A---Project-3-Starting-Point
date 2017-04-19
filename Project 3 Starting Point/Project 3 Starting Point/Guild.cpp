@@ -29,16 +29,16 @@ std::string Guild::GetInfo()
 //	
 //}
 //
-std::string Guild::AttackWithPaladins()
-{
-	std::string output = "You command your paladins to attack! \n";
-	if (_adventurers.size() > 0) {
-		for (auto paladin : _adventurers) {
-			output += paladin->Attack() + "\n";
-		}
-	}
-	return output;
-}
+//std::string Guild::AttackWithPaladins()
+//{
+//	std::string output = "You command your paladins to attack! \n";
+//	if (_adventurers.size() > 0) {
+//		for (auto paladin : _adventurers) {
+//			output += paladin->Attack() + "\n";
+//		}
+//	}
+//	return output;
+//}
 
 //std::string Guild::AttackWithRangers()
 //{
@@ -52,14 +52,14 @@ std::string Guild::AttackWithPaladins()
 //}
 //
 //std::string Guild::AttackWithWarriors()
-//{
-//	std::string output = "You command your warriors to attack! \n";
-//	if (_warriors.size() > 0) {
-//		for (auto warrior : _warriors) {
-//			output += warrior->Attack() + "\n";
-//		}
-//	}
-//	return output;
+
+	//std::string output = "You command your warriors to attack! \n";
+	//if (_warriors.size() > 0) {
+	//	for (auto warrior : _warriors) {
+	//		output += warrior->Attack() + "\n";
+	//	}
+	//}
+	//return output;
 //}
 
 std::string Guild::AttackWithAllAdventurers()
